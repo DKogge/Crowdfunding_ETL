@@ -1,17 +1,30 @@
 # Project 2: Crowdfunding_ETL
 
 ## Collaborators: David Kogge and Dan Kramer
+
 ### Division of Responsibilities:
+
 David constructed and exported the category and campaign data frames, and worked on the Schema files in preparation for use in SQL. He imported the tables into SQL and tested their efficacy using SELECT commands to ensure everything worked properly. David also provided screenshots of these SELECT commands.
+
 Dan constructed and exported the subcategory and contacts data frames. He was also responsible for the construction of the README.
+
 David and Dan consulted each other as needed during table and schema creation, and contributed to each other’s progress and coding when necessary.
+
 ### Deliverables
 Final combined work for the data frames can be found in the file “ETL_Mini_Project_DKogge_DKramer.ipynb.”
-The schema diagram can be referenced in the file “Schema Tables.png”
+
+The schema diagram can be referenced in the file “crowdfunding_db_schema.png”
+
 The schema utilized to create our tables in SQL can be found in the file “crowdfunding_db_schema.sql”
-Screenshots demonstrating the tables working in the SQL environment (see below in README) can be found in the Resources/Sequel Images folder.
+
+Screenshots demonstrating the tables working in the SQL environment (see below in README) can be found in the "Resources/SQL Images" folder.
+
 ### Schema Diagram
 For simple reference, this is an image of the schema relationships:
+
+![crowdfunding_db_schema](https://github.com/DKogge/Crowdfunding_ETL/assets/147351952/730ff80a-a833-4f0d-b3c1-50d3c6f71aa0)
+
+------------------------------
  
 ### SQL Verification
 In order to verify that the schema imported properly when accessing them via SQL using PGAdmin 4, we have captured the following images. The images were created using simple SELECT * statements to show a return result of the tables within PGAdmin 4.
@@ -21,8 +34,9 @@ In order to verify that the schema imported properly when accessing them via SQL
 This is a screenshot of what returned for the “campaign” table:
 
  
- <img width="1884" alt="Screenshot SQL Campaign Table" src="https://github.com/DKogge/Crowdfunding_ETL/assets/147351952/72a6bd70-2f7d-4929-a2a5-11d58a75180c">
+ <img width="1817" alt="Screenshot SQL Campaign Table" src="https://github.com/DKogge/Crowdfunding_ETL/assets/147351952/242e074f-34b9-46ce-b530-4bcdc4c3c382">
 
+ 
 ------------------------------
 
 The following screenshot shows the “categories” table:
