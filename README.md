@@ -19,6 +19,29 @@ The schema utilized to create our tables in SQL can be found in the file “crow
 
 Screenshots demonstrating the tables working in the SQL environment (see below in README) can be found in the "Resources/SQL Images" folder.
 
+### Dataframe Verification
+
+David and Dan were able to successfully replicate the data frame results as shown in the Project 2 information. The following images are the results achieved after running the notebook:
+
+------------------------------
+
+![category_df](https://github.com/DKogge/Crowdfunding_ETL/assets/147351952/ea99ecda-f1fc-45b4-a144-deff5593c99a)
+
+------------------------------
+
+![subcategory_df](https://github.com/DKogge/Crowdfunding_ETL/assets/147351952/af88803c-44f5-4c30-bde8-2ec9efe4dd9c)
+
+------------------------------
+
+![campaign_cleaned_df](https://github.com/DKogge/Crowdfunding_ETL/assets/147351952/1aa95e93-6a2a-48e9-8eae-1686d8afe60f)
+
+------------------------------
+
+![cleaned_contacts_df](https://github.com/DKogge/Crowdfunding_ETL/assets/147351952/31cf5cff-e24d-4392-baaf-ffe607415203)
+
+------------------------------
+
+
 ### Schema Diagram
 For simple reference, this is an image of the schema relationships:
 
@@ -28,6 +51,12 @@ For simple reference, this is an image of the schema relationships:
  
 ### SQL Verification
 In order to verify that the schema imported properly when accessing them via SQL using PGAdmin 4, we have captured the following images. The images were created using simple SELECT * statements to show a return result of the tables within PGAdmin 4.
+
+------------------------------
+
+First, a screenshot to show the crowdfunding_db database structure:
+
+<img width="355" alt="Screenshot SQL DB and Tables" src="https://github.com/DKogge/Crowdfunding_ETL/assets/147351952/1ed77457-4427-4191-aa0d-29e9893ab506">
 
 ------------------------------
 
