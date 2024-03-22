@@ -4,7 +4,7 @@
 
 ### Division of Responsibilities:
 
-David constructed and exported the category and campaign data frames, and worked on the Schema files in preparation for use in SQL. He imported the tables into SQL and tested their efficacy using SELECT commands to ensure everything worked properly. David also provided screenshots of these SELECT commands.
+David constructed and exported the category and campaign data frames, and worked on the schema files in preparation for use in SQL. He imported the tables into SQL and tested their efficacy using SELECT commands to ensure everything worked properly. David also provided screenshots of these SELECT commands.
 
 Dan constructed and exported the subcategory and contacts data frames. He was also responsible for the construction of the README.
 
